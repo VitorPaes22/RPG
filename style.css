@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;800&family=Mochiy+Pop+P+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+/*Fundo Papel manchado*/
+html {
+    background-image: url(./Imagens/Fundo\ Pag.png);
+}
+
+/* Header */
+header {
+
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.cabecalho {
+    padding-top: 10px;
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #FFF2DB;
+    font-weight: 600;
+}
+
+.links-cabecalho {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.hover-sistemas:hover a {
+    color: #FF8552;
+}
+
+.hover-comunidade:hover a {
+    color: #FF8552;
+}
+
+.usuario-cabecalho {
+    display: flex;
+    color: #FFF2DB;
+
+}
+
+.fa-solid {
+    padding-left: 20px;
+}
+
+.login-esquerda {
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D910;
+
+
+}
+
+.login-esquerda a {
+    padding: 10px 20px 10px 20px;
+
+}
+
+.login-esquerda:hover {
+    background-color: #D9D9D950;
+}
+
+.risco-login {
+    border: 1px solid #FFF2DB;
+}
+
+.registro-direita {
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D910;
+
+}
+
+.registro-direita a {
+
+    padding: 10px 20px 10px 20px;
+}
+
+.registro-direita:hover {
+    background-color: #D9D9D950;
+}
+
+/* Fundo Header*/
+
+
+.btn-cabecalho .btn {
+    box-shadow: 1px 1px 10px #0000001a;
+    border-radius: 50px;
+    border: 0 solid aliceblue;
+
+    cursor: pointer;
+    padding: 20px;
+
+}
+
+.carroscel {
+    width: 100%;
+
+}
+
+/*Inicio do Main*/
+.rpg {
+    width: 30%;
+    margin: 20px auto 30px;
+    color: #78290F;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+/* Classe Usada para os contorno vermelhos em geral*/
+.contorno {
+    border: 3px solid #78290F;
+}
+
+.flex-exemplo {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Conteudo-principal {
+    width: 80%;
+    margin: 30px auto 0;
+    background-color: #FFF2DB;
+    padding: 23px;
+
+
+}
+
+.titulo {
+    color: #78290F;
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 3px solid #78290F;
+}
+
+.titulo-texto {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+
+}
+
+.o-e-rpg {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 50px;
+}
+
+.conteudo {
+    display: flex;
+
+
+}
+
+
+.conteudo-imagem {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.conteudo-imagem img {
+    width: 90%;
+
+}
+
+.como-jogar {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 50px;
+}
+
+.textinho {
+    padding-bottom: 20px;
+}
+
+.mestre-jogador {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 50px;
+}
+
+.mestre {
+    width: 47, 5%;
+}
+
+.risco-mestre-jogador {
+    width: 0, 1%;
+    border: 1px solid #78290F;
+    margin: 0 15px;
+}
+
+.jogador {
+    width: 47, 4%;
+}
+
+.personagens {
+    color: #78290F;
+    font-weight: 600;
+}
+
+.exemplo {
+    padding: 20px 50px;
+    width: 60%;
+}
+
+.exemplo P {
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.exemplo-de-sessao {
+    padding-top: 20px;
+    text-align: center;
+    color: #78290F;
+}
+
+.imagem-tres {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    margin-top: 110px;
+}
+
+/*footer*/
+footer {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #78290F;
+    color: #FFF2DB;
+}
+
+.flex-footer {
+    display:flex;
+
+    align-items: center;
+    gap: 14px;
+}
+
+.flex-footer i {
+    color: #FFF2DB;
+    font-size: 21px;
+
+}
+
+/*Inicio da pagina de Login*-------------------------------------------------------------------------------------------------------------*/
+.pagina-login {
+    display: flex;
+    background-color: #FFF2DB;
+    margin: 30px 220px;
+    width: 70%;
+}
+
+.login-imagem {
+    width: 50%;
+    padding: 20px 0px 20px 20px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.login-imagem img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+
+}
+
+.login-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px 30px 1px;
+    width: 50%;
+
+}
+
+.login-conteudo img {
+    width: 200px;
+    margin-top: -50px;
+
+
+}
+
+h1 {
+    font-size: 50px;
+    color: #78290F;
+}
+
+.ainda-registre {
+    display: flex;
+    justify-content: flex-start;
+
+    text-decoration: none;
+    list-style: none;
+
+    gap: 20px;
+}
+
+.ainda-registre a {
+    text-decoration: none;
+    color: #78290F;
+    font-weight: 500;
+}
+
+.ainda-registre a:hover {
+    font-weight: 600;
+}
+
+
+.btn-login {
+    background-color: #78290F;
+    color: #f5f5f5;
+    border-radius: 13px;
+    border-color: #000000;
+    width: 81%;
+    padding: 2px;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+.login-conteudo input {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #E5C6C6;
+    border-radius: 13px;
+    width: 80%;
+    padding: 2px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    margin: 3px;
+    border-color: #000000;
+}
+
+.btn-continue {
+    background-color: #78290F;
+    padding: 5px;
+    border-radius: 13px;
+    border: 3px solid #000000;
+    width: 81%;
+}
+
+.btn-continue a {
+
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+
+}
+
+
+
+/* REGISTRO---------------------------------------------------------------------------------------------------------------------------*/
+.conteudo-registro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+
+}
+
+.flex-registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-registro h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.flex-registro input {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+    background-color: #E5C6C6;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.flex-registro label {
+    padding-bottom: 3px;
+    width: 50%;
+    font-size: 18px;
+}
+
+.flex-registro button {
+    margin-top: 4px;
+    margin-bottom: 34px;
+    width: 34%;
+
+}
+
+.flex-registro a {
+    padding: 1px 114px;
+    width: 34%;
+
+}
+
+
+
+
+/* java script da main*/
+.bx-wrapper {
+    border: none;
+}
+.bx-wrapper .bx-next{
+    background: none;
+}
+.bx-pager {
+    position: absolute;
+    bottom: 0px;
+
+    z-index: 1;
+}
+
+/*sistemas*/
+.body-sistemas {
+    background-color: #FFF2DB;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.body-sistemas h1 {
+    text-align: center;
+    margin-bottom: 587px;
+}
+
+/*Comunidade*/
+.body-comunidade {
+    background-color: #FFF2DB;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.body-comunidade h1 {
+    text-align: center;
+    margin-bottom: 587px;
+}
+
+/*display*/
+@media (max-width: 1024px) {
+    .centro-cabecalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .centro-cabecalho img {
+
+        width: 75%;
+    }
+
+    .conteudo-imagem {
+        width: 35%;
+    }
+
+    .flex-exemplo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .exemplo {
+        padding: 20px 0px;
+    }
+
+    .exemplo p {
+        padding: 0px -100px;
+    }
+
+    .imagem-tres {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-top: 0px;
+
+    }
+
+}
+
+@media(max-width: 768px) {
+    .links-cabecalho a {
+        font-size: 13px;
+
+    }
+
+    .links-cabecalho {
+        gap: 50px;
+    }
+
+    .login-esquerda {
+        font-size: 13px;
+    }
+
+    .login-esquerda a {
+        padding: 10px 6px 10px 4px;
+    }
+
+    .registro-direita {
+        font-size: 13px;
+    }
+
+    .registro-direita a {
+        padding: 10px 6px 10px 4px;
+    }
+
+    .fa-solid {
+        padding-left: 10px;
+    }
+
+    .centro-cabecalho img {
+
+        width: 65%;
+    }
+
+    .o-e-rpg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-texto {
+        width: 80%;
+    }
+
+    .o-e-rpg img {
+        margin-top: 10px;
+        width: 120%;
+    }
+
+    .conteudo-imagem {
+        margin-left: 0px;
+    }
+
+    .como-jogar {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .como-jogar img {
+        margin-top: 10px;
+        width: 210px;
+    }
+
+    footer p {
+        font-size: 13px;
+        padding-right: 5x;
+    }
+    .o-e-rpg {
+
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:700px) {
+    .cabecalho li {
+        font-size: 12px;
+    }
+
+    .cabecalho a {
+        font-size: 12px;
+    }
+    .o-e-rpg {
+
+        margin-top: 20px;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:500px) {
+    .cabecalho li{
+        font-size: 9px;
+    }
+
+    .cabecalho a {
+        font-size: 9px;
+    }
+    .cabecalho img{
+        width: 90px;
+        
+    }
+    .cabecalho{
+        padding-top: 5px;
+    }
+    .como-jogar img{
+        width: 120%;
+    }
+    .o-e-rpg img{
+        width: 120%;
+    }
+    .mestre-jogador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 20px;
+        }
+
+        .risco-mestre-jogador{
+            border: 0px;
+        }
+        .jogador{
+            margin-top: 8px;
+        }
+        .o-e-rpg{
+            margin: 30px 20px;
+        }
+
+        .exemplo{
+            width: 80%;
+            
+        }
+.como-jogar{
+    margin: 30px 20px;
+}
+        
+}
